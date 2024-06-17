@@ -565,6 +565,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+.about {
+  --background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
+}
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
